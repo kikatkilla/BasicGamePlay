@@ -862,6 +862,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2761469186763392337, guid: 965c31713b3d32b45a45b7f7636b4a73, type: 3}
+      propertyPath: m_Size.x
+      value: 0.8616189
+      objectReference: {fileID: 0}
+    - target: {fileID: -2761469186763392337, guid: 965c31713b3d32b45a45b7f7636b4a73, type: 3}
+      propertyPath: m_Size.z
+      value: 0.8402583
+      objectReference: {fileID: 0}
+    - target: {fileID: -2761469186763392337, guid: 965c31713b3d32b45a45b7f7636b4a73, type: 3}
+      propertyPath: m_Center.x
+      value: 0.07289307
+      objectReference: {fileID: 0}
+    - target: {fileID: -2761469186763392337, guid: 965c31713b3d32b45a45b7f7636b4a73, type: 3}
+      propertyPath: m_Center.z
+      value: 0.08937343
+      objectReference: {fileID: 0}
     - target: {fileID: 3461860021414941207, guid: 965c31713b3d32b45a45b7f7636b4a73, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -872,7 +888,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3461860021414941207, guid: 965c31713b3d32b45a45b7f7636b4a73, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.05
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 3461860021414941207, guid: 965c31713b3d32b45a45b7f7636b4a73, type: 3}
       propertyPath: m_LocalPosition.z
@@ -910,11 +926,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Food_Steak_01
       objectReference: {fileID: 0}
-    - target: {fileID: 3461860021415401435, guid: 965c31713b3d32b45a45b7f7636b4a73, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 965c31713b3d32b45a45b7f7636b4a73, type: 3}
 --- !u!1001 &8010674644957478841
 PrefabInstance:
@@ -923,6 +936,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7071523791429840907, guid: 7cec9172b52cfbb4cb855af262e25bd8, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8010674645244728707, guid: 7cec9172b52cfbb4cb855af262e25bd8, type: 3}
       propertyPath: m_Name
       value: Animal_Doe_01

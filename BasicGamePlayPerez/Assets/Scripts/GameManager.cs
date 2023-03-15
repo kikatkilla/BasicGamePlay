@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    void AddLives(int value)
+    public void AddLives(int value)
     {
         lives += value;
         if (lives <= 0)
